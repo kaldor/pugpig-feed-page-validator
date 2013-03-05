@@ -14,6 +14,8 @@ e.g.
 
 ```./fpv.rb http://localhost/my-feed.xml```
 
+Once the script has run you will have a results.html file containing the validation results.
+
 Requirements
 ---------
 
