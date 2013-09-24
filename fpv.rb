@@ -21,7 +21,7 @@ class FPV
     log_results
   end
   def get_base_url
-    @feed.gsub('content.xml','')
+    @feed.gsub(/(contents|atom)\.xml/,'')
   end
   def get_page_list
     pages = []
